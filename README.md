@@ -61,6 +61,27 @@ Ideal for small libraries or personal collections, with a simple command-line in
 | issue_date  | DATE          | Date of Issue                                 |
 | return_date | DATE          | Date of Return (NULL if not returned)         |
 
+## Sample Output
+
+### Main Menu
+![Main Menu](screenshots/menu.png)
+
+### Add Book
+![Add Book](screenshots/add_book.png)
+
+### View / Search Books
+![View Books](screenshots/view_books.png)
+
+### Add Member
+![Add Member](screenshots/add_member.png)
+
+### Issue Book
+![Issue Book](screenshots/issue_book.png)
+
+### Return Book
+![Return Book](screenshots/return_book.png)
+
+
 ## Setup Instructions
 
 1. **Clone the repository**
