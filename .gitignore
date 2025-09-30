@@ -1,13 +1,44 @@
-# Python virtual environment
+# =========================
+# Python Virtual Environment
+# =========================
 venv/
+ENV/
+env/
+*.egg-info/
 
-# OS files
-desktop.ini
-.DS_Store
-
-# Python cache
+# =========================
+# Python cache files
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Environment variables
+# =========================
+# Database / environment files
+# =========================
 .env
+*.db
+*.sqlite3
+
+# =========================
+# OS-specific files
+# =========================
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+*.bak
